@@ -37,7 +37,7 @@ function Features() {
       </section>
       <section
         id="features"
-        className="mt-10 sm:mt-20 md:h-screen content-center items-center px-4 sm:px-10 grid grid-cols-1 gap-y-4 sm:grid-cols-2 text-white "
+        className="pt-10 sm:pt-48   items-center px-4 sm:px-10 grid grid-cols-1 gap-y-4 sm:grid-cols-2 text-white "
       >
         {/* Text Section */}
         <div className="  flex flex-col  justify-center space-y-3 sm:space-y-4">
