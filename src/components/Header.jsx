@@ -11,7 +11,7 @@ const Header = () => {
     display: "flex",
     justifyContent: "space-between", // Items will be spaced out
     alignItems: "center", // Center items vertically
-    padding: "15px 20px", // Padding for spacing
+  
     backgroundColor: "#101624", // Transparent background
     boxSizing: "border-box",
   };
@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <div className=" w-full fixed top-0 bg-[#101624]">
-      <header style={headerStyle} className="relative max-w-6xl mx-auto ">
+      <header style={headerStyle} className="relative  py-[10px] px-4 sm:px-[15px] ">
         {/* header menu backdrop */}
         <div
           onClick={toggleMenu}
@@ -110,7 +110,7 @@ const Header = () => {
               className="w-11/12 md:w-full mx-auto"
             >
               <button className="md:bg-[#2AFD84]  bg-white text-[#101624] text-sm font-semibold whitespace-nowrap transition-colors duration-300 ease-linear px-5 py-2.5 rounded w-full">
-                Download App Now
+                Download App
               </button>
             </a>
             <a

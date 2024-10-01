@@ -1,34 +1,34 @@
 import HeroImage from "../assets/hero-image.png";
-import GooglePlayStore from "../assets/google-store.svg";
-import AppleStore from "../assets/apple-store.svg";
+import GooglePlayStore from "../assets/googlestore.png";
+import AppleStore from "../assets/applestore.png";
 function Hero() {
   return (
-    <section className=" max-w-6xl mx-auto  mb-4 sm:mb-0">
+    <section className="px-3  sm:px-10 mb-4 sm:mb-0">
       <div
         id="home"
-        className=" pt-[90px] flex flex-col  md:flex-row items-start w-full justify-between p-4  text-white"
+        className=" pt-[90px] flex flex-col  md:flex-row items-start w-full justify-between   text-white"
       >
         {/* Text Section */}
         <div className=" flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2 md:w-2/3 ">
-          <h1 className="md:text-5xl text-3xl md:leading-relaxed md:text-wrap font-bold md:mb-4 mb-2 ">
-            Making money has never been <br /> this simple.{" "}
+          <h1 className="md:text-5xl text-3xl leading-relaxed md:text-wrap font-bold md:mb-4 mb-2 ">
+            Making money has never been <br className="hidden sm:block"/> this simple.{" "}
             <>
               <span className="text-[#2AFD84] md:inline-block hidden ">
                 BetGenius
               </span>
-              <p className="text-[#2AFD84] w-full mt-1 md:hidden">BetGenius</p>
+              <span className="text-[#2AFD84] w-full mt-1 md:hidden">BetGenius</span>
             </>
           </h1>
 
-          <p className="text-sm md:text-lg leading-loose w-11/12 text-wrap md:w-2/3 md:mb-6 mb-4 text-[#E6E7EB]">
+          <p className="text-sm md:text-[17px]    text-wrap  md:mb-6 mb-4 text-[#E6E7EB] leading-8 ">
             With BetGenius, your path to success is just a bet away.
-            Revolutionize your football betting experience with our accurate
-            predictions and tips for FREE.
+            Revolutionize your football <br className="hidden sm:block"/> betting experience with our accurate
+            predictions and tips for <span className="text-[#2AFD84]">FREE</span>.
           </p>
 
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-5">
             <a href="">
-              <button className="bg-[#2AFD84] text-[#101624] py-3 px-4 flex items-center gap-2 rounded md:w-2/5 text-center text-sm  font-semibold transition duration-300 hover:bg-[#24d06f]">
+              <button className="bg-[#2AFD84] text-[#101624] h-[46px] sm:h-[53px] flex items-center justify-center rounded w-[228px] sm:w-[262px] text-center text-sm  font-semibold transition duration-300 hover:bg-[#24d06f]">
                 <span>Join Our Telegram Channel</span>
                 {/* arrow right svg */}
                 <svg
@@ -56,23 +56,23 @@ function Hero() {
               </button>
             </a>
 
-            <p className="text-[#E6E7EB]">Or use</p>
+            <p className="text-[#E6E7EB]">Or Use</p>
             <div className="flex gap-2">
               <button>
-                <img src={AppleStore} alt="" />
+                <img src={AppleStore} alt="" className="h-[55px] w-[143px]  sm:w-[169px] sm:h-[65px] "/>
               </button>
               <button>
-                <img src={GooglePlayStore} alt="" />
+                <img src={GooglePlayStore} alt="" className="h-[55px] w-[143px]  sm:w-[169px] sm:h-[65px] " />
               </button>
             </div>
             <div className="flex gap-8 mt-4 w-11/12 md:w-full">
               <div className="flex flex-col gap-4">
                 <p className="text-[#E6E7EB]">320K +</p>
-                <h1 className="md:text-2xl text-xl font-bold">Active Users</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">Active Users</h1>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="text-[#E6E7EB]">85%</p>
-                <h1 className="md:text-2xl text-xl font-bold">Winning Rate</h1>
+                <h1 className="md:text-2xl text-xl font-semibold">Winning Rate</h1>
               </div>
             </div>
           </div>

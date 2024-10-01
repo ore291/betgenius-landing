@@ -11,9 +11,9 @@ function App() {
     width: "100vw",
     maxHeight: "100vh",
     overflowY: "scroll",
-    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), 
-                      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)`, // Lighter white with opacity
-    backgroundSize: "80px 80px",
+    backgroundImage: `url("bg.svg")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center top",
   };
   return (
     <div
