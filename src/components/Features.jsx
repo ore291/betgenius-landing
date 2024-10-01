@@ -13,34 +13,35 @@ import WinTog2 from "../assets/wintog2.png"
 
 function Features() {
   return (
-    <div className="flex space-y-10 flex-col mt-12 md:mt-28">
+    <div className="mt-12 md:mt-28">
       <section
         id="about"
-        className="flex flex-col md:flex-row items-start w-full  px-3 sm:px-10   text-white md:h-screen "
+        className="flex flex-col md:flex-row items-start w-full  px-3 sm:px-10   text-white "
       >
         <div className="flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2  ">
           <h1 className="md:text-5xl text-3xl md:leading-relaxed text-wrap font-bold mb-4 md:w-3/5">
             Free Games Only. No VIP. No <br className="hidden sm:block" /> Pay
             After Win.
           </h1>
-          <p className="text-sm leading-loose  text-wrap  md:mb-6 mb-4 text-[#E6E7EB]">
+          <p className="text-sm leading-loose  text-wrap  md:mb-6  text-[#E6E7EB]">
             No VIP tiers. No hidden fees. No payments after wins—just pure
             betting excitement with <br className="hidden sm:block" />
             BetGenius!
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4  w-full mb-5">
-            <img src={FreeGame1} alt="" className="object-cover h-[600px] md:h-auto md:object-contain" />
-            <img src={FreeGame2} alt="" className="object-cover h-[600px] md:h-auto  md:object-contain" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4  w-full my-5">
+            <img src={FreeGame1} alt="" className="object-contain h-full md:h-auto md:object-contain" />
+            <img src={FreeGame2} alt="" className="object-contain h-full md:h-auto  md:object-contain" />
           </div>
         </div>
       </section>
+
       <section
         id="features"
-        className="pt-10 sm:pt-48   items-center px-4 sm:px-10 grid grid-cols-1 gap-y-4 sm:grid-cols-2 text-white "
+        className=" pt-10 sm:py-32   items-center px-4 sm:px-10 grid grid-cols-1 gap-y-4  sm:grid-cols-2 text-white "
       >
         {/* Text Section */}
-        <div className="  flex flex-col  justify-center space-y-3 sm:space-y-4">
+        <div className=" flex flex-col  justify-center space-y-3 sm:space-y-4">
           <h1 className="md:text-5xl text-3xl md:leading-relaxed text-wrap font-bold ">
             Get Free Booking Codes
           </h1>
@@ -71,7 +72,6 @@ function Features() {
                   y1="12"
                   x2="16"
                   y2="12"
-                  stroke="currentColor"
                   strokeWidth="2"
                 />
               </svg>
@@ -80,15 +80,16 @@ function Features() {
         </div>
 
         {/* Image Section */}
-        <div className=" ">
+        <div className="sm:h-[500px] ">
           <img
             src={BookingCode}
             alt="Hero Image"
-            className="   !object-cover md:h-[700px]"
+            className="   !object-cover  lg:h-auto"
           />
         </div>
       </section>
-      <section className="px-3 md:px-10  flex flex-col  w-full justify-between text-white ">
+
+      <section className="py-8 sm:py-24 px-3 md:px-10  flex flex-col  w-full justify-between text-white ">
         {/* Text Section */}
         <div className="flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2 md:w-2/3 ">
           <h1 className="md:text-5xl text-3xl md:leading-relaxed text-wrap font-bold mb-4">
@@ -120,12 +121,12 @@ function Features() {
       <section className="hidden sm:grid grid-cols-1 sm:grid-cols-2 justify-between p-4 md:p-0 md:pl-8 md:py-10 text-white  ">
         {/* Text Section */}
         <div className="flex flex-col space-y-5 sm:pt-28">
-          <h1 className="md:text-5xl text-3xl leading-relaxed text-wrap font-bold mb-4">
+          <h1 className="md:text-5xl text-3xl leading-normal text-wrap font-bold mb-4">
             Your Source for Accurate Sports News
           </h1>
           <span className=" text-sm leading-loose  text-[#E6E7EB]">
             Get up-to-date and precise news, live updates, and in-depth analysis
-            with the<br className="hidden sm:block" /> <br className="hidden sm:block" />BetGenius App – your ultimate companion for staying
+            with the<br className="hidden sm:block" /> BetGenius App – your ultimate companion for staying
             informed.
           </span>
           <a href="#download">
@@ -171,7 +172,7 @@ function Features() {
       {/* download section */}
       <section
         id="download"
-        className="px-2 sm:px-10 flex flex-col justify-center items-center space-y-3  w-full pb-20"
+        className="py-10 px-2 sm:px-10 flex flex-col justify-center items-center space-y-3  w-full pb-20"
       >
         <h1 className="md:text-5xl text-3xl leading-relaxed text-wrap font-bold  text-white">
           Let&apos;s Win Together
@@ -189,7 +190,7 @@ function Features() {
             className="  sm:hidden md:object-cover "
           />
         </div>
-        <div className="flex space-x-4 sm:space-x-8 px-1">
+        <div className="flex space-x-4 sm:space-x-8 px-1 py-2">
           <a href="#download" className="h-[55px] w-[143px]  sm:w-[169px] sm:h-[65px] ">
             <img
               src={AppleStore}
