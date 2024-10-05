@@ -14,10 +14,10 @@ import GooglePlayStore from "../assets/googlestore.png";
 
 function Features() {
   return (
-    <div className="flex flex-col space-y-20 sm:space-y-32">
+    <div className="flex flex-col space-y-24 sm:space-y-32">
       <section
         id="home"
-        className="min-h-screen px-2 sm:px-0 pt-5 max-w-6xl mx-auto flex flex-col  md:flex-row items-start w-full justify-between   text-white"
+        className="sm:min-h-screen px-2 sm:px-0 pt-5 max-w-6xl mx-auto flex flex-col  md:flex-row items-start w-full justify-between   text-white"
       >
         {/* Text Section */}
         <div className=" flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2 md:w-2/3 ">
@@ -119,7 +119,7 @@ function Features() {
           </Fade>
         </div>
       </section>
-      <section id="about" className="min-h-screen  w-full px-2 sm:px-0  max-w-6xl mx-auto   text-white ">
+      <section id="about" className="sm:min-h-screen  w-full px-2 sm:px-0  max-w-6xl mx-auto   text-white ">
         <div className="flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2  ">
           <Fade triggerOnce direction="up" duration={1500} fraction={0.01}>
             <h1 className="md:text-5xl text-3xl md:leading-relaxed text-wrap font-bold mb-4 md:w-3/5">
@@ -149,7 +149,7 @@ function Features() {
 
       <section
         id="features"
-        className="min-h-screen  max-w-6xl mx-auto  px-2 sm:px-0 grid grid-cols-1 gap-y-2 sm:gap-y-4  sm:grid-cols-2 text-white "
+        className="sm:min-h-screen  max-w-6xl mx-auto  px-2 sm:px-0 grid grid-cols-1 gap-y-2 sm:gap-y-4  sm:grid-cols-2 text-white "
       >
         {/* Text Section */}
         <div className=" flex flex-col  justify-center space-y-3 sm:space-y-4">
@@ -198,7 +198,7 @@ function Features() {
         </div>
       </section>
 
-      <section className="min-h-screen  max-w-6xl mx-auto   px-2 md:px-0  flex flex-col  w-full justify-between text-white ">
+      <section className="sm:min-h-screen  max-w-6xl mx-auto   px-2 md:px-0  flex flex-col  w-full justify-between text-white ">
         {/* Text Section */}
         <div className="flex-1 mb-8 md:mb-0 md:mr-8 flex flex-col gap-2 md:w-2/3 ">
           <Fade triggerOnce direction="up" duration={1500} fraction={0.01}>
@@ -231,7 +231,7 @@ function Features() {
         </div>
       </section>
 
-      <section className="min-h-screen  hidden sm:grid grid-cols-1 sm:grid-cols-2 justify-between px-2 md:px-0 md:pl-8  text-white  ">
+      <section className="sm:min-h-screen  hidden sm:grid grid-cols-1 sm:grid-cols-2 justify-between px-2 md:px-0 md:pl-8  text-white  ">
         {/* Text Section */}
         <div className="flex flex-col space-y-5">
           <Fade triggerOnce direction="up" duration={1500} fraction={0.01}>
@@ -284,7 +284,7 @@ function Features() {
       {/* download section */}
       <section
         id="download"
-        className="min-h-screen  px-2 sm:px-0 flex flex-col justify-center items-center space-y-5  w-full pb-20"
+        className="sm:min-h-screen  px-2 sm:px-0 flex flex-col justify-center items-center space-y-5  w-full pb-20"
       >
         <Fade triggerOnce direction="up" duration={1000} fraction={0.01}>
           <h1 className="md:text-5xl text-3xl leading-relaxed text-wrap font-bold  text-white">
