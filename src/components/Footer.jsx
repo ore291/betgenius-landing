@@ -9,7 +9,7 @@ const Footer = () => {
       <div className=" flex flex-col justify-center ">
         {/* Footer Grid */}
         <div className="bg-[#0e0c1a] p-4 ">
-          <div className="max-w-5xl mx-auto   py-10 px-1 md:flex-row grid grid-cols-1 sm:grid-cols-5 gap-y-10     w-full">
+          <div className="max-w-6xl mx-auto   py-10 px-1 md:flex-row grid grid-cols-1 sm:grid-cols-5 gap-y-10     w-full">
             {/* Column 1: Logo and Description */}
             <div className="flex flex-col gap-4 justify-between items-start  col-span-2">
               <p className="md:block hidden font-bold text-lg">BetGenius</p>
