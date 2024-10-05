@@ -19,5 +19,5 @@ export default defineConfig({
       },
     }),
   ],
-  //  base: '/betgenius-landing/'
+   base: '/betgenius-landing/'
 });
